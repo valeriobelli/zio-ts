@@ -1,0 +1,19 @@
+{
+	"extends": "@tsconfig/strictest/tsconfig.json",
+	"compilerOptions": {
+		"allowImportingTsExtensions": true,
+		"allowJs": true,
+		"allowSyntheticDefaultImports": true,
+		"downlevelIteration": true,
+		"forceConsistentCasingInFileNames": true,
+		"incremental": true,
+		"lib": ["ESNext"],
+		"module": "NodeNext",
+		"moduleDetection": "force",
+		"moduleResolution": "nodenext",
+		"noEmit": true,
+		"target": "esnext",
+		"types": ["bun-types"]
+	},
+	"include": ["*.cjs", "*.mjs", "*.ts", "src", "commitlint.config.mts", "commitlint.config.cts"]
+}
