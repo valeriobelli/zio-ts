@@ -19,7 +19,8 @@
 		"check:code-formatting": "bun run prettier --check **/*.{ts,cjs,json,md}",
 		"check:code-style": "bun run eslint --ext .ts,.cjs,.js .",
 		"prettify": "bun run prettier --write **/*.{ts,cjs,json,md}",
-		"postinstall": "bun run husky install"
+		"postinstall": "bun run husky install",
+		"typecheck": "bun run tsc --noEmit"
 	},
 	"type": "module",
 	"devDependencies": {
@@ -43,5 +44,12 @@
 		"typescript": "=>3.0.0",
 		"zod": "^3.0.0",
 		"fp-ts": "^2.0.0"
+	},
+	"publishConfig": {
+		"registry": "https://npm.pkg.github.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/valeriobelli/zio-ts.git"
 	}
 }
