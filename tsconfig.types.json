@@ -5,6 +5,7 @@
 		"baseUrl": ".",
 		"declaration": true,
 		"emitDeclarationOnly": true,
+		"incremental": false,
 		"noEmit": false,
 		"outDir": "./dist/"
 	},
