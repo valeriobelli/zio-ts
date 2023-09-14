@@ -1,5 +1,5 @@
 {
-	"name": "zio-ts",
+	"name": "@valeriobelli/zio-ts",
 	"version": "1.0.0",
 	"description": "A tiny abstraction to make Zod compatible with fp-ts.",
 	"author": {
