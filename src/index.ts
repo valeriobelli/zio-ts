@@ -1,6 +1,6 @@
 import * as E from 'fp-ts/Either'
 import * as TE from 'fp-ts/TaskEither'
-import { ZodError, ZodType, ZodTypeDef } from 'zod'
+import type { ZodError, ZodType, ZodTypeDef } from 'zod'
 
 const cast = <T>(data: unknown) => data as T
 
