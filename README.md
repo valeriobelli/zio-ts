@@ -5,10 +5,7 @@ A tiny abstraction to make Zod compatible with fp-ts.
 ## Installation
 
 ```sh
-npm install zio-ts fp-ts zod
-yarn install zio-ts fp-ts zod
-bun install zio-ts fp-ts zod
-pnpm install zio-ts fp-ts zod
+npm install @valeriobelli/zio-ts fp-ts zod
 ```
 
 ## Usage
